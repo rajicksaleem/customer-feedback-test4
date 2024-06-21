@@ -1,0 +1,114 @@
+body {
+    font-family:  sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2E333C;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 20px;
+    display: flex;
+    color: #2E333C;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #2E333C;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 20px;
+    color: #2E333C;
+    margin: 20px 0 10px;
+}
+
+.questions {
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    color: #2E333C;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.question span {
+    flex: 1;
+    text-align: left;
+}
+
+.question label {
+    margin: 0 10px;
+}
+
+button.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #2E333C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2E333C;
+    padding: 20px;
+    border: 2px solid #2E333C;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-text {
+    font-size: 18px;
+    color: #ffffff;
+}
